@@ -1,5 +1,5 @@
 # Simplistic Symbol Synthesizer
- A simply but quick logo creator
+ A simple but quick logo creator
 
 ## Description:
   
@@ -19,9 +19,9 @@ requires: Node.js and inquirerer8.2.4 before running through terminal
 
 ## Video
 
-[Demo](./assets/READMEdemo.webm)
+[Demo](./)
 
-[Video Link](https://drive.google.com/file/d/1Xxp8j6AdgNrIeRQUJNF2JAIDXPmTYImt/view)
+[Video Link]()
 
 ## License:
 
@@ -29,17 +29,15 @@ N/A
 
 ## Contributors:
 
-[Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-[License Badges List](https://gist.github.com/qvil/5e3ed56c26d784e51424621119cc4028)
-
-[Starter Code](https://github.com/coding-boot-camp/potential-enigma)
-
-[Inquirer.prompt Issue](https://stackoverflow.com/questions/62860243/inquirer-prompt-exiting-without-an-answer)
 
 ## Tests:
 
-N/A
+```js
+const shape = new Triangle();
+shape.setColor("blue");
+expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
+```
 
 ## Questions:
 
