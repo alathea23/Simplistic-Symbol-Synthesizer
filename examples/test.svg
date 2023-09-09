@@ -1,1 +1,8 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/200/svg" viewBox = "0 0 200 300"><defs><style>.cls-1{fill: id="f4795b"}</style></defs><circle class="cls-1" cx="100" cy="150" r="100"/></svg> 
+<svg viewBox = "0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+    <g>
+    <rect x="10" y="10" width="90%" height="90%"
+    fill="${color}"
+    />
+    <text x="105" y="110" font-family="Verdana" font-size="40" fill="white">SVG</text>
+    </g>
+    </svg>
