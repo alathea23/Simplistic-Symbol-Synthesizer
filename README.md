@@ -19,9 +19,9 @@ requires: Node.js and inquirerer8.2.4 before running through terminal
 
 ## Video
 
-[Demo](./)
+[Demo](./examples/AND.svg)
 
-[Video Link]()
+[Video Link](./Assets/Logo_Gen_Demo.mov)
 
 ## License:
 
@@ -29,7 +29,7 @@ N/A
 
 ## Contributors:
 
-[SVG code](https://blog.hubspot.com/website/what-is-an-svg-file)
+Jenny Wannier, [SVG code](https://blog.hubspot.com/website/what-is-an-svg-file)
 
 
 ## Tests:
