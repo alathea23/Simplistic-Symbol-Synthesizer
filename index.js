@@ -1,16 +1,17 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const shapes = require("./lib/shapes");
+const Shape = require("./lib/shapes");
+const generateSVG = require("./lib/logoCreator")
 
 //let answers = []
 
 //Creating an array of questions for user input
-const questions = inquirer.prompt([
+inquirer.prompt([
   {
     type: "list",
     message: "What shape would you like",
     choices: ["Circle", "Triangle", "Square"],
-    name: "shape",
+    name: "name",
   },
   {
     type: "input",
@@ -26,25 +27,17 @@ const questions = inquirer.prompt([
   {
     type: "input",
     message: "What color would you like your text?",
-    name: "textcolor",
+    name: "borderColor",
   },
-]);
-
-function writeFile(answers) {
-  fileName = "logo.svg";
-  (writeText = shapes(answers)),
+]).then((answers) =>{
+  const filePath = `./examples/${answers.text}.svg`
+  const logoParams = generateSVG(answers)
     //console to test code
     console.log(logoParams);
 
-  fs.writeFile(fileName, logoParams, (err) =>
-    err ? console.error(err) : console.log("Generated logo.svg")
+  fs.writeFile(filePath, logoParams, (err) =>
+    err ? console.error(err) : console.log(`Generated ${answers.text}.svg`)
   );
 }
+);
 
-async function init() {
-  await questions;
-  writeFile(answers);
-}
-
-// Function call to initialize app
-init();

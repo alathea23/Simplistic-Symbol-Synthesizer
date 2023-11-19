@@ -29,6 +29,7 @@ N/A
 
 ## Contributors:
 
+[SVG code](https://blog.hubspot.com/website/what-is-an-svg-file)
 
 
 ## Tests:
