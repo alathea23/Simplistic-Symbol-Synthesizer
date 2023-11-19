@@ -1,8 +1,0 @@
-<svg viewBox = "0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-    <g>
-    <rect x="10" y="10" width="90%" height="90%"
-    fill="${color}"
-    />
-    <text x="105" y="110" font-family="Verdana" font-size="40" fill="white">SVG</text>
-    </g>
-    </svg>
